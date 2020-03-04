@@ -17,9 +17,9 @@ module load qt/5.8.0
 module load azure
 export OMP_NUM_THREADS=$NSLOTS
 #echo $PWD
-cd rMatrix/27Al_p
+cd rMatrix/rMatrix_Mg_Al_data
 #echo $PWD
-azure2 --no-long-wavelength --no-gui --use-brune --ignore-externals --gsl-coul --no-readline /afs/crc.nd.edu/group/nsl/activetarget/users/saguilar/rMatrix/27Al_p/sebaz.azr <<EOF
+azure2 --no-long-wavelength --no-gui --use-brune --ignore-externals --gsl-coul --no-readline /afs/crc.nd.edu/group/nsl/activetarget/users/saguilar/rMatrix/rMatrix_Mg_Al_data/sebaz.azr <<EOF
 2
 
 
