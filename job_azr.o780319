@@ -1,55 +1,0 @@
-
-O--------------------------O-------------------------------O
-| #### #### #  # ###  ####  ##  | Version 1.0              |
-| #  #    # #  # #  # #    #  # |                          |
-| ####   #  #  # ###  ##     #  |                          |
-| #  #  #   #  # # #  #     #   | Joint Institute for      |
-| #  # ####  ##  #  # #### #### | Nuclear Astrophysics     |
-O--------------------------O-------------------------------O
-
-Please select from the following options: 
-	1. Calculate Segments From Data
-	2. Fit Segments From Data
-	3. Calculate Segments Without Data
-	4. Perform MINOS Error Analysis
-	5. Calculate Reaction Rate
-	6. Exit
-azure2: 
-External Parameter File (leave blank for new file): 
-Calling AZURE2 for fitting of segments from data...
-Filling Compound Nucleus...
-Filling Data Structures...
-Calculating Boundary Conditions...
-Performing Input Parameter Transformation...
-Sorting Reaction Pathways...
-Calculating Angular Distribution Coefficients...
-Creating New param.par File...
-Calculating Lo-Matrix, Phases, and Penetrabilities...
-Calculating Legendre Polynomials...
-Calculating Coulomb Amplitudes...
-Performing A-Matrix Fit...
-	Iteration:    100 Chi-Squared: 3.164e+06	Iteration:    200 Chi-Squared: 3.14835e+06	Iteration:    300 Chi-Squared: 3.00604e+06	Iteration:    400 Chi-Squared: 2.88953e+06	Iteration:    500 Chi-Squared: 1.8432e+06	Iteration:    600 Chi-Squared: 1.83857e+06	Iteration:    700 Chi-Squared: 1.62635e+06	Iteration:    800 Chi-Squared: 1.57578e+06	Iteration:    900 Chi-Squared: 1.39129e+06	Iteration:   1000 Chi-Squared: 1.26301e+06	Iteration:   1100 Chi-Squared: 1.1591e+06	Iteration:   1200 Chi-Squared: 1.09797e+06	Iteration:   1300 Chi-Squared: 1.06854e+06	Iteration:   1400 Chi-Squared: 1.04077e+06	Iteration:   1500 Chi-Squared: 1.00658e+06	Iteration:   1600 Chi-Squared: 970866	Iteration:   1700 Chi-Squared: 947619	Iteration:   1800 Chi-Squared: 930000	Iteration:   1900 Chi-Squared: 914416	Iteration:   2000 Chi-Squared: 905640	Iteration:   2100 Chi-Squared: 901900	Iteration:   2200 Chi-Squared: 898684	Iteration:   2300 Chi-Squared: 897323	Iteration:   2400 Chi-Squared: 896860	Iteration:   2500 Chi-Squared: 896499	Iteration:   2600 Chi-Squared: 896177	Iteration:   2700 Chi-Squared: 895790	Iteration:   2800 Chi-Squared: 895544	Iteration:   2900 Chi-Squared: 895310	Iteration:   3000 Chi-Squared: 895120	Iteration:   3100 Chi-Squared: 894977	Iteration:   3200 Chi-Squared: 894829	Iteration:   3300 Chi-Squared: 894708	Iteration:   3400 Chi-Squared: 894602	Iteration:   3500 Chi-Squared: 894143	Iteration:   3600 Chi-Squared: 893572	Iteration:   3700 Chi-Squared: 893357	Iteration:   3800 Chi-Squared: 893319	Iteration:   3900 Chi-Squared: 893260	Iteration:   4000 Chi-Squared: 893205	Iteration:   4100 Chi-Squared: 893182	Iteration:   4200 Chi-Squared: 893168	Iteration:   4300 Chi-Squared: 893167	Iteration:   4400 Chi-Squared: 893165	Iteration:   4500 Chi-Squared: 893165	Iteration:   4600 Chi-Squared: 893165	Iteration:   4700 Chi-Squared: 893164	Iteration:   4800 Chi-Squared: 893131	Iteration:   4900 Chi-Squared: 893129	Iteration:   5000 Chi-Squared: 893110	Iteration:   5100 Chi-Squared: 893111	Iteration:   5200 Chi-Squared: 893097	Iteration:   5300 Chi-Squared: 893077	Iteration:   5400 Chi-Squared: 893052	Iteration:   5500 Chi-Squared: 892915	Iteration:   5600 Chi-Squared: 892714	Iteration:   5700 Chi-Squared: 892708	Iteration:   5800 Chi-Squared: 892626	Iteration:   5900 Chi-Squared: 892553	Iteration:   6000 Chi-Squared: 892387	Iteration:   6100 Chi-Squared: 892130	Iteration:   6200 Chi-Squared: 891771	Iteration:   6300 Chi-Squared: 891648	Iteration:   6400 Chi-Squared: 891621	Iteration:   6500 Chi-Squared: 889838	Iteration:   6600 Chi-Squared: 889832	Iteration:   6700 Chi-Squared: 889836	Iteration:   6800 Chi-Squared: 889822	Iteration:   6900 Chi-Squared: 888688	Iteration:   7000 Chi-Squared: 887641	Iteration:   7100 Chi-Squared: 887614	Iteration:   7200 Chi-Squared: 887597	Iteration:   7300 Chi-Squared: 887597	Iteration:   7400 Chi-Squared: 887597	Iteration:   7500 Chi-Squared: 887597	Iteration:   7600 Chi-Squared: 887596	Iteration:   7700 Chi-Squared: 887597	Iteration:   7800 Chi-Squared: 887597	Iteration:   7900 Chi-Squared: 887596
-
-Segment #20 Chi-Squared/N: 3.67554
-Segment #21 Chi-Squared/N: 0.334157
-Segment #22 Chi-Squared/N: 15.6823
-Segment #23 Chi-Squared/N: 7.70839
-Segment #24 Chi-Squared/N: 7.34612
-Segment #25 Chi-Squared/N: 3.10018
-Segment #34 Chi-Squared/N: 213.583
-Segment #35 Chi-Squared/N: 512.587
-Segment #36 Chi-Squared/N: 769.908
-Segment #37 Chi-Squared/N: 521.83
-Segment #38 Chi-Squared/N: 1015
-Segment #39 Chi-Squared/N: 1407.74
-Segment #40 Chi-Squared/N: 44.523
-Segment #41 Chi-Squared/N: 3.54394
-Segment #42 Chi-Squared/N: 9.91863
-Segment #43 Chi-Squared/N: 19.4881
-Segment #44 Chi-Squared/N: 9.07375
-Total Chi-Squared: 887596
-
-Writing output files...
-Performing final parameter transformation...
-
-Thanks for using AZURE2.

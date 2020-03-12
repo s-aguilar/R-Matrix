@@ -3,7 +3,7 @@
 #$ -M saguilar@nd.edu
 #$ -m abe
 # -cwd       		# Change to current working directory job was submitted from
-#$ -pe smp 12
+#$ -pe smp 24
 #$ -q long@@nsl             # Specify queue type # long or debug
 #$ -N seb_azr       # Specify job's name
 
@@ -19,7 +19,7 @@ export OMP_NUM_THREADS=$NSLOTS
 #echo $PWD
 cd rMatrix/rMatrix_Mg_Al_data
 #echo $PWD
-azure2 --no-long-wavelength --no-gui --use-brune --ignore-externals --gsl-coul --no-readline /afs/crc.nd.edu/group/nsl/activetarget/users/saguilar/rMatrix/rMatrix_Mg_Al_data/seb_1_22.azr <<EOF
+azure2 --no-long-wavelength --no-gui --use-brune --ignore-externals --gsl-coul --no-readline /afs/crc.nd.edu/group/nsl/activetarget/users/saguilar/rMatrix/rMatrix_Mg_Al_data/temp.azr <<EOF
 2
 
 
