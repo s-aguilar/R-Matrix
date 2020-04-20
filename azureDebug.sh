@@ -13,8 +13,8 @@ module load gcc
 module load gsl
 module load Minuit2
 module load qt/5.8.0
-#module load azure-upog
-module load azure
+module load azure-upog
+#module load azure
 export OMP_NUM_THREADS=$NSLOTS
 #echo $PWD
 cd rMatrix/rMatrix_Mg_Al_data
