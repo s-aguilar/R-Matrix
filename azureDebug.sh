@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#$ -M saguilar@nd.edu
+#$ -M saguilar@alumni.nd.edu
 #$ -m abe
 # -cwd       		# Change to current working directory job was submitted from
 #$ -pe smp 24
 #$ -q debug             # Specify queue type # long or debug
-#$ -N job_azr       # Specify job's name
+#$ -N seb_azr       # Specify job's name
 
 
 module load /afs/crc.nd.edu/user/n/nsl/nuclear/startup/nsl
@@ -19,7 +19,7 @@ export OMP_NUM_THREADS=$NSLOTS
 #echo $PWD
 cd rMatrix/rMatrix_Mg_Al_data
 #echo $PWD
-azure2 --no-long-wavelength --no-gui --use-brune --ignore-externals --gsl-coul --no-readline /afs/crc.nd.edu/group/nsl/activetarget/users/saguilar/rMatrix/rMatrix_Mg_Al_data/temp.azr <<EOF
+azure2 --no-long-wavelength --no-gui --use-brune --ignore-externals --gsl-coul --no-readline /afs/crc.nd.edu/group/nsl/activetarget/users/saguilar/rMatrix/rMatrix_Mg_Al_data/tempfit.azr <<EOF
 2
 
 
